@@ -47,7 +47,7 @@ nav li a {
 font-size: 22px !important;
   }
  .email input{
-  width: 45%;
+  width: 45% !important;
 }
 }
 
@@ -73,7 +73,7 @@ font-size: 22px !important;
     }
 
   .email input{
-  width: 45%;
+  width: 45% !important;
 }
   }
   
@@ -86,7 +86,7 @@ font-size: 22px !important;
   }
   
       .email input{
-  width: 45%;
+  width: 45% !important;
 }
 
    }
