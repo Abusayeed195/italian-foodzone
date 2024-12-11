@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./mobile.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="nav-2">
+        <div class="container ">
+            <nav>
+                <div class="logo">
+                    <img src="./image/logo.png" alt="" >
+                </div>
+                <ul id="menuList">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 nav-1">
+      
+
+            <div class="text">
+                <h1>Best Pizza</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Vivamus lacinia odio vitae <br> vestibulum vestibulum. </p>
+                <button class="btn">
+                    <a href="#">Order Now</a>
+                </button>
+            </div>
+
+
+            </div>
+        
+        </div>
+    </div>
+
+</header>
+<!-- card section -->
+ <div class="card">
+    <div class="container">
+        <div class="menu">
+            <h1>Popular Menu</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="./image/card3.png" alt="">
+                <div class="text"><h3>Title Here</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+            </div>
+            <div class="col-lg-4">
+                <img src="./image/card2.png" alt="">
+                <div class="text"><h3>Title Here</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+            </div>
+            <div class="col-lg-4">
+                <img src="./image/card.png" alt="">
+                <div class="text"><h3>Title Here</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- delevary -->
+  <div class="delevary">
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+    
+                </div>
+            <div class="col-lg-6 pizza">
+
+            <div class="text">
+                <h1>Free Delivery</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Vivamus lacinia odio vitae <br> vestibulum vestibulum. </p>
+                <button class="btn">
+                    <a href="#">Order Now</a>
+                </button>
+            </div>
+
+
+            </div>
+        
+        </div>
+    </div>
+  </div>
+<!-- count section -->
+<div class="counters">
+    <div class="container">
+        <div class="menu">
+            <h1>Statistics</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+              <div class="count-time">
+                <div class="count" max-data="123"><h1>00</h1>
+                </div>
+                <h2>STORE</h2>
+              </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="count-time">
+                    <div class="count" max-data="100"><h1>00</h1>
+                    </div>
+                    <h2>MENU</h2>
+                  </div>
+                  </div>
+            <div class="col-lg-4">
+                <div class="count-time">
+                    <div class="count" max-data="200"><h1>00</h1>
+                    </div>
+                    <h2>CHEF</h2>
+                  </div>
+            </div>
+        </div>
+    </div>
+ </div>
+  <!-- Discount  -->
+  <div class="discount ">
+    <div class="container-fluid">
+       <div class="row">
+           <div class="col-lg-6 pizza">
+            <div class="text">
+                <h1>Discount 20%</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Vivamus lacinia odio vitae <br> vestibulum vestibulum. </p>
+                <button class="btn">
+                    <a href="#">Order Now</a>
+                </button>
+            </div>
+               </div>
+           <div class="col-lg-6 ">
+           </div>
+       
+       </div>
+   </div>
+ </div>
+ <!-- Carlson  -->
+ <div class="carlson ">
+    <div class="container-fluid">
+       <div class="row">
+           <div class="col-lg-12 pizza">
+            <div class="text">
+               
+                <p>If you are a culinary fan, if you like to spend time <br> in your kitchen, you likely find yourself looking for <br> reliable resources through which you can</p>
+                <h3>Addie Carlson</h3>
+            </div>
+               </div>
+       
+       </div>
+   </div>
+ </div>
+ <!-- Subscribe section -->
+<div class="Subscribe">
+    <div class="container">
+        <div class="menu">
+            <h1>Subscribe</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 email">
+          <form action="#">
+            <input type="email" value="" placeholder="Your email">
+          </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 ipsum">
+                <h5>Best Pizza</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 Services">
+                <h5>About</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Brand Guidelines</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 Services">
+                <h5>Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">How to Order</a></li>
+                    <li><a href="#">Our Product</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">Payment Method</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 Services">
+                <h5>Other</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
