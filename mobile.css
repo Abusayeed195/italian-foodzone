@@ -46,7 +46,11 @@ i.fa-solid.fa-bars{
 nav li a {
 font-size: 22px !important;
   }
+ .email input{
+  width: 45%;
 }
+}
+
 
 @media only screen and (max-width: 772px) {
   
@@ -67,6 +71,10 @@ font-size: 22px !important;
   nav li a {
   font-size: 22px !important;
     }
+
+  .email input{
+  width: 45%;
+}
   }
   
 @media only screen and (max-width: 430px) {
@@ -77,6 +85,8 @@ font-size: 22px !important;
      
   }
   
-     
+      .email input{
+  width: 45%;
+}
 
    }
