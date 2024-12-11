@@ -23,6 +23,7 @@ p{
     font-size: 24px;
 }
 
+
 .logo{
     width: 20%;
 
@@ -212,7 +213,7 @@ padding-bottom: 30px;
 .email input{
     font-size: 26px;
     color: #222222;
-    max-width: 800px;
+    width: 30%;
     outline: none;
     border-radius: 15px;
     padding: 0px 10px;
